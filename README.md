@@ -8,6 +8,6 @@ Code is found in the MakeCalls() method, in MainWindow.xaml.cs
 
 Project runs on the .Net Framework, ver 4.6.
 
-Nuget package Newtonsoft.Json must be added to to the Microsoft project.
+Nuget package Microsoft.AspNet.WebApi.Client must be added to to the Visual Studio project. (This will also load Newtonsoft.Json.)
 
 Nothing is done with the results of the calls.  You'll have to set a breakpoint and then examine the results with a Watch feature in order to see what comes back.
